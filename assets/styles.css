@@ -65,15 +65,17 @@ nav {
     margin-top: 40px;
     margin-bottom: 40px;
 }
-/*---------------------Revisar---------------------*/
-header img {
-    position: fixed;
-    width: 120px;
-    top: 180px;
-    right: 0px;
-    bottom: 100px;
+
+.header_tittle{
+    position: relative;
 }
-/*-----------------------------------------*/
+
+.header_tittle img{
+    position: absolute;
+    top: -35px;
+    right: 10px;
+    width: 120px;
+  }
 
 .containerBody_Left p {
     text-indent: 20px;
@@ -85,3 +87,8 @@ header img {
 .containerBody_Left article{
     padding-top: 12px;
 }
+
+
+
+  
+  
