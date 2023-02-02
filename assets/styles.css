@@ -139,3 +139,9 @@ span {
 .containerBody_left_tittle {
   font-size: 18px;
 }
+
+.containerBody_Left_tittleSchedule {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
