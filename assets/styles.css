@@ -145,3 +145,11 @@ span {
   font-size: 24px;
   margin-bottom: 20px;
 }
+
+.ubicationMap{
+  width: 100%
+}
+
+thead tr th {
+  text-align: center;
+}
