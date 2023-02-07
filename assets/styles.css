@@ -249,6 +249,39 @@ border-radius: 20px;
   opacity: 0.6;
 }
 
+#formLine{
+  display: flex;
+}
+
+#formLine input{
+  margin: 5px;
+}
+
+div form h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#genderLine {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.form-select {
+  border-color: grey;
+  border-radius: 10px;
+}
+
+.advice{
+  text-align: center;
+  padding-top: 10px;
+}
+
+body div form {
+  border-radius: 40px;
+}
+
 @media (max-width: 576px) {
   .registration-form form{
       padding: 50px 20px;
