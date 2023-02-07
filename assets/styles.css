@@ -273,13 +273,27 @@ div form h2 {
   border-radius: 10px;
 }
 
-.advice{
+.advice {
+  margin-top: 25px;
   text-align: center;
-  padding-top: 10px;
 }
 
 body div form {
   border-radius: 40px;
+}
+
+#birthDate{
+  max-width: 290px;
+}
+.form-group-second .form-group{
+  margin-top: 20px;
+}
+#uniformSize{
+  width: 200px;
+  margin-bottom: 30px;
+}
+#formRegister {
+  float: right;
 }
 
 @media (max-width: 576px) {
