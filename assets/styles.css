@@ -296,6 +296,19 @@ body div form {
   float: right;
 }
 
+svg.bi.bi-backspace-fill {
+  color:black;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+}
+
+.menu ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
 @media (max-width: 576px) {
   .registration-form form{
       padding: 50px 20px;
