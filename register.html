@@ -2,201 +2,236 @@
 <html lang="EN">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mighty Ducks Hockey League</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link rel="stylesheet" href="/assets/styles.css">
-  <link rel="shortcut icon" href="/resources/hockey.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="shortcut icon" href="resources/hockey.png">
+    <title>MDHL Register</title>
 </head>
 
 <body>
-  <div class="registration-form">
-    <form>
-      <a href="/index.html">
-        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-backspace-fill"
-          viewBox="0 0 30 30">
-          <path
-            d="M15.683 3a2 2 0 0 0-2-2h-7.08a2 2 0 0 0-1.519.698L.241 7.35a1 1 0 0 0 0 1.302l4.843 5.65A2 2 0 0 0 6.603 15h7.08a2 2 0 0 0 2-2V3zM5.829 5.854a.5.5 0 1 1 .707-.708l2.147 2.147 2.146-2.147a.5.5 0 1 1 .707.708L9.39 8l2.146 2.146a.5.5 0 0 1-.707.708L8.683 8.707l-2.147 2.147a.5.5 0 0 1-.707-.708L7.976 8 5.829 5.854z" />
-        </svg>
-      </a>
-      <h2>Registration Form</h2>
-      <div class="form-group" id="formLine">
-        <input type="text" class="form-control item" id="username" placeholder="Player's First Name">
-        <input type="password" class="form-control item" id="password" placeholder="Last Name">
-      </div>
-      <div class="form-group" id="formLine">
-        <input type="text" class="form-control item" id="city" placeholder="City">
-        <input type="text" class="form-control item" id="zipCode" placeholder="Zip Code">
-        <input type="text" class="form-control item" id="streetAddress" placeholder="Street Address">
-      </div>
-      <div class="form-group" id="formLine">
-        <input type="date" class="form-control item" id="birthDate">
-        <div class="form-group" id="genderLine">
-          <select class="form-select" aria-label="Default select example">
-            <option selected>Select Gender</option>
-            <option value="1">Male</option>
-            <option value="2">Female</option>
-          </select>
+    <header>
+        <div class="header_background">
+            <h1>Mighty Ducks Hockey League</h1>
         </div>
-      </div>
-      <div class="form-group-second">
-        <div class="form-group">
-          <span><b>Grade:</b></span>
-          <div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-              <label class="form-check-label" for="inlineRadio1">Pre-School</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-              <label class="form-check-label" for="inlineRadio2">1st</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option2">
-              <label class="form-check-label" for="inlineRadio2">2nd</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option2">
-              <label class="form-check-label" for="inlineRadio2">3rd</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option2">
-              <label class="form-check-label" for="inlineRadio2">4th</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option2">
-              <label class="form-check-label" for="inlineRadio2">5th</label>
-            </div>
-          </div>
+        <div class="header_tittle">
+            <h2>Upcoming Events</h2>
+            <img src="resources/logoMightyDucks-01.png" alt="logo_MDHL">
         </div>
-        <div class="form-group">
-          <span><b>Closest School:</b></span>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault1">
-              AJ Katzenmaier
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-            <label class="form-check-label" for="flexRadioDefault2">
-              Greenbay
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-            <label class="form-check-label" for="flexRadioDefault3">
-              Howard A Yeager
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
-            <label class="form-check-label" for="flexRadioDefault4">
-              Marjorie P Hart
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
-            <label class="form-check-label" for="flexRadioDefault5">
-              North Elementary
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault6">
-            <label class="form-check-label" for="flexRadioDefault6">
-              South Elementary
-            </label>
-          </div>
-        </div>
-        <div class="form-group">
-          <span><b>Positions:</b></span>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault7">
-            <label class="form-check-label" for="flexCheckDefault7">
-              Forward
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault8">
-            <label class="form-check-label" for="flexCheckDefault8">
-              Defense
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault9">
-            <label class="form-check-label" for="flexCheckDefault9">
-              Midfield
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault10">
-            <label class="form-check-label" for="flexCheckDefault10">
-              Goalkeeper
-            </label>
-          </div>
-        </div>
-        <div class="form-group" id="uniformSize">
-          <span><b>Uniform size:</b></span>
-          <select class="form-select" aria-label="Default select example">
-            <option selected>Select size</option>
-            <option value="1">Youth Small</option>
-            <option value="2">Youth Medium</option>
-            <option value="3">Youth Large</option>
-            <option value="4">Small</option>
-            <option value="5">Medium</option>
-            <option value="6">Large</option>
-            <option value="7">Extra-Large</option>
-          </select>
-        </div>
-      </div>
-      <div class="form-group">
-        <input type="text" class="form-control item" id="birth-date" placeholder="Parent/Guardian Signature">
-      </div>
-      <div class="form-action">
-        <button type="button" class="btn btn-block create-account" data-bs-toggle="modal"
-          data-bs-target="#staticBackdrop">
-          Terms & Conditions
-        </button>
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-          aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Permission to Play</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <p>
-                  I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all
-                  the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility pf physical injury
-                  associated whith hockey and in consideration fot the "League" accepting the registrant for its hockey
-                  programs and activities, I hereby release, discharge, and/or otherwise indemnify MHDL, their employees
-                  and associated personnel and volunteers, including the facilities used for practices and games,
-                  against any claim by or on behalf of the registrant as a result of the registrant's participation in
-                  the programand/orbeing transported to or from MDHL sponsored activities, which transportation.
-                  By register bellow, I herebyagree andauthorizethe above. In addition, by signing below, also
-                  acknowledge that I have read the cancellation policy and agree to its terms.
-                </p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Understood</button>
-              </div>
+    </header>
+    <div class="containerBody">
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="schedule.html">Game</a></li>
+                <li><a href="rules.html">Rules</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+        <div class="containerBody_Left">
+            <div class="registerForm">
+                <h2>Registration Form</h2>
+                <form action="showData.html" method="POST">
+                    <div class="formLine">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label"></label>
+                            <input type="name" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Player First Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput2" class="form-label"></label>
+                            <input type="text" class="form-control" id="exampleFormControlInput2"
+                                placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="formLine">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput3" class="form-label"></label>
+                            <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="City">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput4" class="form-label"></label>
+                            <input type="number" class="form-control" id="exampleFormControlInput4"
+                                placeholder="Zip Code">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput5" class="form-label"></label>
+                            <input type="text" class="form-control" id="exampleFormControlInput5"
+                                placeholder="Street Address">
+                        </div>
+                    </div>
+                    <div class="formLine" id="birthDateAndGender">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput6" class="form-label">Birthdate</label>
+                            <input type="date" class="form-control item" id="exampleFormControlInput6">
+                        </div>
+                        <div class="form-group" id="genderLine">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Select Gender</option>
+                                <option value="1">Male</option>
+                                <option value="2">Female</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="formLine">
+                        <div class="form-group">
+                            <span><b>Closest School:</b></span>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    AJ Katzenmaier
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault2">
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Greenbay
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault3">
+                                <label class="form-check-label" for="flexRadioDefault3">
+                                    Howard A Yeager
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault4">
+                                <label class="form-check-label" for="flexRadioDefault4">
+                                    Marjorie P Hart
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault5">
+                                <label class="form-check-label" for="flexRadioDefault5">
+                                    North Elementary
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault6">
+                                <label class="form-check-label" for="flexRadioDefault6">
+                                    South Elementary
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <span><b>Positions:</b></span>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault7">
+                                <label class="form-check-label" for="flexCheckDefault7">
+                                    Forward
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault8">
+                                <label class="form-check-label" for="flexCheckDefault8">
+                                    Defense
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault9">
+                                <label class="form-check-label" for="flexCheckDefault9">
+                                    Midfield
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault10">
+                                <label class="form-check-label" for="flexCheckDefault10">
+                                    Goalkeeper
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group" id="uniformSize">
+                            <span><b>Uniform size:</b></span>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Select size</option>
+                                <option value="1">Youth Small</option>
+                                <option value="2">Youth Medium</option>
+                                <option value="3">Youth Large</option>
+                                <option value="4">Small</option>
+                                <option value="5">Medium</option>
+                                <option value="6">Large</option>
+                                <option value="7">Extra-Large</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group" id="signature">
+                        <input type="text" class="form-control item" placeholder="Parent/Guardian Signature">
+                    </div>
+                    <div class="form-action" id="formButtons">
+                        <button type="button" class="btn btn-block create-account" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">
+                            Terms & Conditions
+                        </button>
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Permission to Play</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            I, the parent or guardian of the minor registrant, agree that the registrant
+                                            and
+                                            I
+                                            will abide by all
+                                            the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the
+                                            possibility
+                                            pf physical injury
+                                            associated whith hockey and in consideration fot the "League" accepting the
+                                            registrant for its hockey
+                                            programs and activities, I hereby release, discharge, and/or otherwise
+                                            indemnify
+                                            MHDL, their employees
+                                            and associated personnel and volunteers, including the facilities used for
+                                            practices
+                                            and games,
+                                            against any claim by or on behalf of the registrant as a result of the
+                                            registrant's
+                                            participation in
+                                            the programand/orbeing transported to or from MDHL sponsored activities,
+                                            which
+                                            transportation.
+                                            By register bellow, I herebyagree andauthorizethe above. In addition, by
+                                            signing
+                                            below, also
+                                            acknowledge that I have read the cancellation policy and agree to its terms.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Understood</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <input type="submit" value="Register" class="submitForm"> -->
+                    </div>
+                    <div class="advice">
+                        <small class="terms">By registering you accept the terms and conditions</small>
+                    </div>
+                    <input type="submit" value="Register" class="submitForm">
+                </form>
             </div>
-          </div>
         </div>
-        <button type="button" class="btn btn-block create-account" id="formRegister">Register</button>
-        <div class="advice">
-          <small class="terms">By registering you accept the terms and conditions</small>
-        </div>
-      </div>
-    </form>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
