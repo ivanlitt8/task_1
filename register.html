@@ -36,39 +36,39 @@
         <div class="containerBody_Left">
             <div class="registerForm">
                 <h2>Registration Form</h2>
-                <form action="showData" method="POST">
+                <form action="showData.html" method="GET">
                     <div class="formLine">
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label"></label>
-                            <input type="text" class="form-control" id="exampleFormControlInput1"
-                                placeholder="Player First Name">
+                            <label for="firstName" class="form-label"></label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Player First Name"
+                                name="firstName">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlInput2" class="form-label"></label>
-                            <input type="text" class="form-control" id="exampleFormControlInput2"
-                                placeholder="Last Name">
+                            <label for="lastname" class="form-label"></label>
+                            <input type="text" class="form-control" id="lastname" placeholder="Last Name"
+                                name="lastname">
                         </div>
                     </div>
                     <div class="formLine">
                         <div class="mb-3">
-                            <label for="exampleFormControlInput3" class="form-label"></label>
-                            <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="City">
+                            <label for="city" class="form-label"></label>
+                            <input type="text" class="form-control" id="city" placeholder="City" name="city">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlInput4" class="form-label"></label>
-                            <input type="number" class="form-control" id="exampleFormControlInput4"
-                                placeholder="Zip Code">
+                            <label for="zipCode" class="form-label"></label>
+                            <input type="number" class="form-control" id="zipCode" placeholder="Zip Code"
+                                name="zipCode">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlInput5" class="form-label"></label>
-                            <input type="text" class="form-control" id="exampleFormControlInput5"
-                                placeholder="Street Address">
+                            <label for="streetAdress" class="form-label"></label>
+                            <input type="text" class="form-control" id="streetAdress" placeholder="Street Address"
+                                name="streetAdress">
                         </div>
                     </div>
                     <div class="formLine" id="birthDateAndGender">
                         <div class="mb-3">
-                            <label for="exampleFormControlInput6" class="form-label">Birthdate</label>
-                            <input type="date" class="form-control item" id="exampleFormControlInput6">
+                            <label for="birthDate" class="form-label">Birthdate</label>
+                            <input type="date" class="form-control item" id="birthDate" name="birthDate">
                         </div>
                         <div class="form-group" id="genderLine">
                             <select class="form-select" aria-label="Default select example">
@@ -82,42 +82,42 @@
                         <div class="form-group">
                             <span><b>Closest School:</b></span>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                <input class="form-check-input" type="radio" name="flexRadioDefault1"
                                     id="flexRadioDefault1">
                                 <label class="form-check-label" for="flexRadioDefault1">
                                     AJ Katzenmaier
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                <input class="form-check-input" type="radio" name="flexRadioDefault2"
                                     id="flexRadioDefault2">
                                 <label class="form-check-label" for="flexRadioDefault2">
                                     Greenbay
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                <input class="form-check-input" type="radio" name="flexRadioDefault3"
                                     id="flexRadioDefault3">
                                 <label class="form-check-label" for="flexRadioDefault3">
                                     Howard A Yeager
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                <input class="form-check-input" type="radio" name="flexRadioDefault4"
                                     id="flexRadioDefault4">
                                 <label class="form-check-label" for="flexRadioDefault4">
                                     Marjorie P Hart
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                <input class="form-check-input" type="radio" name="flexRadioDefault5"
                                     id="flexRadioDefault5">
                                 <label class="form-check-label" for="flexRadioDefault5">
                                     North Elementary
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                <input class="form-check-input" type="radio" name="flexRadioDefault6"
                                     id="flexRadioDefault6">
                                 <label class="form-check-label" for="flexRadioDefault6">
                                     South Elementary
@@ -127,25 +127,29 @@
                         <div class="form-group">
                             <span><b>Positions:</b></span>
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault7">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault7"
+                                    name="flexCheckDefault7">
                                 <label class="form-check-label" for="flexCheckDefault7">
                                     Forward
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault8">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault8"
+                                    name="flexCheckDefault8">
                                 <label class="form-check-label" for="flexCheckDefault8">
                                     Defense
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault9">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault9"
+                                    name="flexCheckDefault9">
                                 <label class="form-check-label" for="flexCheckDefault9">
                                     Midfield
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault10">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault10"
+                                    name="flexCheckDefault10">
                                 <label class="form-check-label" for="flexCheckDefault10">
                                     Goalkeeper
                                 </label>
@@ -166,7 +170,9 @@
                         </div>
                     </div>
                     <div class="form-group" id="signature">
-                        <input type="text" class="form-control item" placeholder="Parent/Guardian Signature">
+                        <label for="signature" class="form-label"></label>
+                        <input type="text" class="form-control item" placeholder="Parent/Guardian Signature"
+                            name="signature">
                     </div>
                     <div class="form-action" id="formButtons">
                         <button type="button" class="btn btn-block create-account" data-bs-toggle="modal"
